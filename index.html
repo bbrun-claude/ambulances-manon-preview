@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ambulances Manon — Transport sanitaire à Galgon (33)</title>
+<meta name="description" content="Ambulances Manon à Galgon : ambulances, VSL, transport sanitaire conventionné CPAM. Équipe formée aux gestes d'urgence, disponible 7j/7 en Gironde.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#1a1a2e;line-height:1.6;background:#f0f4f8}
+header{background:linear-gradient(135deg,#0d47a1 0%,#1565c0 50%,#1976d2 100%);color:#fff;padding:3.5rem 1.5rem;text-align:center}
+header h1{font-size:2.3rem;font-weight:800;margin-bottom:0.3rem;letter-spacing:-0.5px}
+header .tagline{color:#bbdefb;font-size:1.05rem;margin-bottom:1rem}
+.urgence-banner{background:#c62828;color:#fff;padding:0.8rem 1.5rem;text-align:center;font-weight:600;font-size:1.1rem}
+.urgence-banner a{color:#fff;text-decoration:none;font-size:1.3rem;letter-spacing:1px}
+nav{background:#0d47a1;padding:0.8rem 1.5rem;text-align:center;position:sticky;top:0;z-index:100}
+nav a{color:#90caf9;text-decoration:none;margin:0 1rem;font-size:0.95rem;font-weight:500;transition:color 0.2s}
+nav a:hover{color:#fff}
+.container{max-width:960px;margin:0 auto;padding:0 1.5rem}
+section{padding:3.5rem 0}
+section:nth-child(even){background:#fff}
+h2{font-size:1.8rem;color:#0d47a1;margin-bottom:1.5rem;text-align:center;font-weight:700}
+h2 span{color:#c62828}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:1.5rem}
+.service-card{background:#fff;border-radius:12px;padding:2rem;box-shadow:0 2px 12px rgba(0,0,0,0.06);border-top:4px solid #1565c0;transition:transform 0.2s}
+.service-card:hover{transform:translateY(-3px)}
+.service-card h3{font-size:1.15rem;color:#0d47a1;margin-bottom:0.6rem}
+.service-card p{color:#4a5568;font-size:0.95rem}
+.service-card .badge{display:inline-block;background:#e3f2fd;color:#1565c0;padding:0.2rem 0.6rem;border-radius:4px;font-size:0.8rem;font-weight:600;margin-top:0.8rem}
+.highlight-box{background:linear-gradient(135deg,#0d47a1,#1565c0);color:#fff;border-radius:12px;padding:2.5rem;text-align:center;margin:2rem 0}
+.highlight-box h3{font-size:1.4rem;margin-bottom:0.8rem}
+.highlight-box p{color:#bbdefb;font-size:1rem}
+.highlight-box .phone{color:#fff;font-weight:700;font-size:2rem;display:block;margin:0.8rem 0;letter-spacing:1px}
+.about-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
+.about-text p{color:#4a5568;margin-bottom:1rem;font-size:0.95rem}
+.about-stats{display:flex;gap:2rem;margin-top:1.5rem;flex-wrap:wrap}
+.stat{text-align:center;min-width:80px}
+.stat .number{font-size:2rem;font-weight:800;color:#1565c0}
+.stat .label{font-size:0.85rem;color:#718096}
+.why-list{list-style:none;padding:0}
+.why-list li{padding:0.8rem 0;border-bottom:1px solid #e2e8f0;color:#4a5568;padding-left:2rem;position:relative}
+.why-list li::before{content:"✓";position:absolute;left:0;color:#1565c0;font-weight:700;font-size:1.1rem}
+.contact-section{background:linear-gradient(135deg,#0d47a1,#1565c0);color:#fff;padding:3.5rem 1.5rem;text-align:center}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:1.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.contact-item{background:rgba(255,255,255,0.1);border-radius:10px;padding:1.5rem}
+.contact-item h4{color:#bbdefb;margin-bottom:0.5rem;font-size:1rem}
+.contact-item p{color:#fff;font-size:0.95rem}
+.contact-item a{color:#90caf9;text-decoration:none}
+.cta-btn{display:inline-block;background:#c62828;color:#fff;padding:0.9rem 2.2rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:1rem;margin-top:1.5rem;transition:background 0.2s}
+.cta-btn:hover{background:#b71c1c}
+footer{background:#0a1929;color:#718096;text-align:center;padding:2rem 1.5rem;font-size:0.85rem}
+@media(max-width:768px){
+header h1{font-size:1.7rem}
+.about-content{grid-template-columns:1fr}
+.about-stats{justify-content:center}
+nav a{margin:0 0.5rem;font-size:0.85rem}
+.services-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="urgence-banner">
+Besoin d'un transport sanitaire ? <a href="tel:0557691776">05 57 69 17 76</a>
+</div>
+
+<header>
+<h1>Ambulances Manon</h1>
+<div class="tagline">Transport sanitaire conventionné en Gironde depuis 2008</div>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#about">Qui sommes-nous</a>
+<a href="#engagements">Engagements</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+<div class="container">
+<h2>Nos <span>services</span></h2>
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Ambulances</h3>
+<p>Transport médicalisé pour les patients nécessitant une surveillance ou une position allongée. Véhicules équipés pour les urgences et les transferts inter-hospitaliers.</p>
+<span class="badge">Conventionné CPAM</span>
+</div>
+
+<div class="service-card">
+<h3>VSL — Véhicule Sanitaire Léger</h3>
+<p>Transport assis pour vos consultations, séances de traitement, examens médicaux ou sorties d'hospitalisation. Confortable et ponctuel.</p>
+<span class="badge">Prise en charge Sécurité Sociale</span>
+</div>
+
+<div class="service-card">
+<h3>Transports médicaux réguliers</h3>
+<p>Dialyse, chimiothérapie, rééducation : nous assurons vos trajets récurrents avec fiabilité. Un chauffeur dédié et des horaires fixes pour votre tranquillité.</p>
+<span class="badge">Programmation régulière</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="about" style="background:#fff">
+<div class="container">
+<h2>Une équipe <span>à votre service</span></h2>
+<div class="about-content">
+<div class="about-text">
+<p>Installée à Galgon depuis 2008, Ambulances Manon est une entreprise familiale dirigée par Véronique Manon. Notre mission est simple : assurer le transport sanitaire de nos patients dans les meilleures conditions de confort et de sécurité.</p>
+<p>Notre flotte se compose d'une ambulance et de deux VSL, entretenus avec rigueur. Chaque membre de notre équipe de 6 personnes est formé aux gestes d'urgence et à l'accompagnement des patients.</p>
+<p>Nous intervenons sur l'ensemble du Libournais et de la rive droite de la Gironde : Galgon, Libourne, Saint-André-de-Cubzac, Coutras, Fronsac et les communes environnantes.</p>
+</div>
+<div>
+<div class="about-stats">
+<div class="stat">
+<div class="number">18</div>
+<div class="label">ans d'expérience</div>
+</div>
+<div class="stat">
+<div class="number">6</div>
+<div class="label">professionnels</div>
+</div>
+<div class="stat">
+<div class="number">3</div>
+<div class="label">véhicules</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="engagements">
+<div class="container">
+<h2>Nos <span>engagements</span></h2>
+<div style="max-width:600px;margin:0 auto">
+<ul class="why-list">
+<li>Ponctualité : nous respectons vos horaires de rendez-vous</li>
+<li>Confort : véhicules propres, climatisés et bien entretenus</li>
+<li>Bienveillance : accompagnement humain et personnalisé</li>
+<li>Conventionné CPAM : prise en charge par la Sécurité Sociale</li>
+<li>Disponibilité : transports réguliers ou ponctuels, à votre rythme</li>
+<li>Équipe formée : personnel diplômé et qualifié</li>
+</ul>
+</div>
+
+<div class="highlight-box">
+<h3>Réservez votre transport</h3>
+<p>Muni de votre prescription médicale de transport, contactez-nous :</p>
+<span class="phone">05 57 69 17 76</span>
+<p>Nous organisons votre trajet dans les meilleurs délais.</p>
+<a href="tel:0557691776" class="cta-btn">Appeler maintenant</a>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+<h2 style="color:#fff">Nous <span>contacter</span></h2>
+<div class="contact-grid">
+<div class="contact-item">
+<h4>Adresse</h4>
+<p>15 Rue de l'Église<br>33133 Galgon</p>
+</div>
+<div class="contact-item">
+<h4>Téléphone</h4>
+<p><a href="tel:0557691776">05 57 69 17 76</a></p>
+</div>
+<div class="contact-item">
+<h4>Email</h4>
+<p><a href="mailto:ambulancesmanon33@gmail.com">ambulancesmanon33@gmail.com</a></p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2026 Ambulances Manon — 15 Rue de l'Église, 33133 Galgon</p>
+</footer>
+
+</body>
+</html>
